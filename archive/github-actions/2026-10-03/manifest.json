@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "repository": "tanshuai/valora-wallet",
+  "repository_id": 465663933,
+  "date": "2026-10-03",
+  "source_sha": "0b6ab9b2a842651316899a631527f1cf35b4d710",
+  "entries": [
+    {
+      "original_path": ".github/workflows/automerge-crowdin.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/automerge-crowdin.yml",
+      "source_blob_sha": "85da256ad2178ed58b6590a30808079d4a3efb00",
+      "sha256": "09666cfde96d5e6739663a6cdcc2a99b3047b51577b5d5adb96017da38a0c301",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from valora-xyz/wallet",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [],
+      "secret_names": [],
+      "external_entrypoint_types": [
+        "workflow_dispatch"
+      ],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/check.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/check.yml",
+      "source_blob_sha": "6525dbe66344dec3f803d4b96cf6ab91edde7f57",
+      "sha256": "29e75323b22f8717f1a874c589a8cf7463a9f721b905c702714be645bc18038d",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from valora-xyz/wallet",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-002",
+        "CFG-006",
+        "CFG-027-check.yml"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [
+        "scripts/ci_check_vulnerabilities.sh"
+      ],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/e2e-android.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/e2e-android.yml",
+      "source_blob_sha": "71b97284ca763e57063fe815e89d6664ef5cdaf3",
+      "sha256": "e91b8025fee1bcf7d90e658d8a5930e684619001168d59d3102b192b1dff907b",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from valora-xyz/wallet",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-001",
+        "CFG-006",
+        "CFG-027-e2e-android.yml"
+      ],
+      "secret_names": [
+        "TEST_FAUCET_SECRET",
+        "TWILIO_ACCOUNT_SID",
+        "TWILIO_AUTH_TOKEN",
+        "VERIFICATION_PHONE_NUMBER"
+      ],
+      "external_entrypoint_types": [
+        "workflow_dispatch"
+      ],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/e2e-ios.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/e2e-ios.yml",
+      "source_blob_sha": "242ed75177bfb1ee8760653e7445ac17097defc2",
+      "sha256": "5e646c282113bd96e31bcc4c487e571752c836d01e61cc5b1a333efa835c1e47",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from valora-xyz/wallet",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-001",
+        "CFG-006",
+        "CFG-027-e2e-ios.yml"
+      ],
+      "secret_names": [
+        "TEST_FAUCET_SECRET",
+        "TWILIO_ACCOUNT_SID",
+        "TWILIO_AUTH_TOKEN",
+        "VERIFICATION_PHONE_NUMBER"
+      ],
+      "external_entrypoint_types": [
+        "workflow_dispatch"
+      ],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/test.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/test.yml",
+      "source_blob_sha": "6de1cd1479634a9ce1c10aee1ad96444d7a95bb9",
+      "sha256": "72d0a42fcc03c2a1df1096d74f1331136ecef3c7e0df64cbccf72f44bc7117c7",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from valora-xyz/wallet",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-001",
+        "CFG-002",
+        "CFG-006",
+        "CFG-027-test.yml"
+      ],
+      "secret_names": [
+        "CODECOV_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    }
+  ],
+  "code_and_dependency_snapshots": [
+    {
+      "original_path": ".github/scripts/automergeCrowdinPr.js",
+      "archived_path": "archive/github-actions/2026-10-03/.github/scripts/automergeCrowdinPr.js",
+      "source_blob_sha": "22e98d3949709cdf85d29015164376384a8b1822",
+      "sha256": "f268308123028634ec8a9b3cc59632837c0000f203bd9dcf6992f97376b9e8e3",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": ".github/scripts/tsconfig.json",
+      "archived_path": "archive/github-actions/2026-10-03/.github/scripts/tsconfig.json",
+      "source_blob_sha": "0add2bb6557571f6dbd81944540944a350bb817a",
+      "sha256": "b8681987a8049063aef51c3c650c860ef128df428992e1ab27195f4f3adfead1",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": ".nvmrc",
+      "archived_path": "archive/github-actions/2026-10-03/.nvmrc",
+      "source_blob_sha": "25615cc6a8ea6b8c80e03b29fce4b44ee2e143dc",
+      "sha256": "48d909ceedd69753b6e5337833f26563cf8af17be1832cfbeb6e0c827914a4ac",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "package.json",
+      "archived_path": "archive/github-actions/2026-10-03/package.json",
+      "source_blob_sha": "464e5aecaf99401f19672b7416f6396a619c3f67",
+      "sha256": "7d772065c56edba0811c90cd1b0b6f33be7c89bbbca5f3a97ec154cb0afa3b32",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "scripts/ci_check_vulnerabilities.sh",
+      "archived_path": "archive/github-actions/2026-10-03/scripts/ci_check_vulnerabilities.sh",
+      "source_blob_sha": "0e35902989317839b81c8a6a8d7f33e25695a20c",
+      "sha256": "6f615b0ff3c22c30d78e2ae654b047db0de4ceffa13939fa25c6e2952302d748",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "yarn.lock",
+      "archived_path": "archive/github-actions/2026-10-03/yarn.lock",
+      "source_blob_sha": "739ba6ef89e7cca70524a22d29d6d5aa5dd553b4",
+      "sha256": "bb241ca3c1c2592dd9a2f2e7d54648fbb2ba7da9a4e06a8412b2e55bdac27b48",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    }
+  ],
+  "upstream_preflight": {
+    "parent": "valora-xyz/wallet",
+    "source_sha": "0b6ab9b2a842651316899a631527f1cf35b4d710",
+    "ahead_by": 0,
+    "behind_by": 4036,
+    "status": "behind",
+    "retained_runs": 0,
+    "semantic_note": "Current entrypoints reviewed individually; only inherited upstream CI/tests/releases/doc generators, no custom fork commits or live production consumer identified. No repository Actions enabling or passive alert changes."
+  },
+  "caller_check": {
+    "current_all_accessible_workflows": 286,
+    "remaining_reusable_callers": [],
+    "external_dispatch_note": "Declared dispatch/manual entrypoints recorded; entire retired source preserved. No dispatch APIs were invoked."
+  },
+  "passive_security_alerts": "No alert setting changed. Archived version-update YAML is no longer active configuration.",
+  "rollback": "Reviewed source restoration plus explicit workflow enablement; for unsafe cross-repository publishers establish an updated producer/consumer contract and guarded destination before restoring."
+}
